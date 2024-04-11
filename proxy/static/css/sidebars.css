@@ -35,10 +35,21 @@ body {
     border-radius: 50%; 
 }
 
+.login-check {
+    width: 100%; 
+    height: auto; 
+    margin-bottom: 30px;
+    z-index: 3;
+}
+
+.login-check p {
+    text-align: center;
+}
 
 .wrapper .sidebar ul li a {
     display: block;
     padding: 20px;
+    border-top: 1px solid #0f3460;
     border-bottom: 1px solid #0f3460;
     color: white;
     font-size: 16px 30px;
@@ -80,7 +91,7 @@ body.active .wrapper .sidebar {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha value for the desired level of transparency */
     backdrop-filter: blur(1px); /* Adjust the blur radius */
-    z-index: 1; /* Place the overlay behind other elements */
+    z-index: 3; /* Place the overlay behind other elements */
     display: none; /* Initially hide the overlay */
 }
 
